@@ -1,0 +1,79 @@
+.robot-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.robot-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.robot-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.robot-content h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.robot-content h3 {
+  margin-bottom: 10px;
+}
+
+.robot-content p {
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.robot-content ul {
+  padding-left: 25px;
+  line-height: 1.9;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.zone {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  background: #1e293b;
+  border: 1px solid #334155;
+}
+
+.zone h3 {
+  color: #f8fafc;
+}
+
+@media (max-width: 768px) {
+  .robot-page {
+    padding: 40px 18px;
+  }
+
+  .robot-content h1 {
+    font-size: 32px;
+  }
+
+  .robot-content h2 {
+    font-size: 24px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+}
